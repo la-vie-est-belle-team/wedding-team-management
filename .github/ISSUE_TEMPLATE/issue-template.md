@@ -1,6 +1,6 @@
 ---
-name: 템플릿 제목
-about: 템플릿 설명
+name: Issue template
+about: 이슈 기본 템플릿입니다
 title: ''
 labels: ''
 assignees: ''
