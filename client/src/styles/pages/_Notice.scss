@@ -1,0 +1,15 @@
+nav {
+  margin-top: rem(10);
+  ul {
+    display: flex;
+    gap: rem(16);
+    li {
+      color: $grey88;
+      font-size: rem(18);
+      &.on {
+        color: $grey33;
+        font-weight: 600;
+      }
+    }
+  }
+}

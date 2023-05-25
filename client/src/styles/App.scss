@@ -1,0 +1,10 @@
+@import './abstracts/Function'; // 함수
+@import './abstracts/Mixins'; // 믹스인
+@import './abstracts/Variables'; // 변수
+
+@import './base/Reset'; // 리셋 
+@import './base/Typography'; // 문자
+
+@import './components/Header'; // 헤더
+
+@import './pages/Notice' // 공지사항 페이지
