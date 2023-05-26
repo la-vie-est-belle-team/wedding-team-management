@@ -3,11 +3,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: rem(24);
+  max-width: rem(1024);
+  margin: 0 auto;
   img {
     width: rem(70);
     height: rem(50);
   }
-  nav {
+  .login_util {
     ul {
       display: flex;
       gap: rem(10);

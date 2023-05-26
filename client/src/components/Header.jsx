@@ -7,7 +7,7 @@ function Header() {
         <h1>
           <img src="./img/logo.png" alt=""/>
         </h1>
-        <nav>
+        <div className='login_util'>
           <ul>
             <li className="schedule">
               <img src="./img/ic_calender.svg" alt="" />
@@ -16,7 +16,7 @@ function Header() {
               <img src="./img/ic_myPage.svg" alt="" />
             </li>
           </ul>
-        </nav>
+        </div>
       </header>
     </>
   );
