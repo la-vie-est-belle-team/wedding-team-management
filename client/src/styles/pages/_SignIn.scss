@@ -30,7 +30,7 @@
           .login-input-button {
             display: flex;
             .login-input__button-clear {
-              display: flex;
+              display: none;
               width: rem(25);
               height: rem(25);
               padding: rem(5);
@@ -39,6 +39,7 @@
               background-repeat: no-repeat;
             }
             .login-input__button-view {
+              display: none;
               padding: rem(5);
               width: rem(25);
               height: rem(25);
