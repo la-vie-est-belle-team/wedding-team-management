@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function SignIn() {
+export default function SignIn() {
   return (
     <div className="login__bg">
       <div className='login__wrap'>
@@ -8,7 +9,7 @@ function SignIn() {
         <form id="loginForm">
           <div className="login-input">
             <div className='login-input__wrap'>
-              <label className='hide'>Email</label>
+              <label className='hide'>아이디</label>
               <input type="text" id="id" name="id" placeholder="아이디"></input>
               <div className='login-input-button'>
                 <button type='button' className='login-input__button-clear' style={{ backgroundImage: 'url(./img/ic_x.svg)' }}></button>
@@ -24,7 +25,7 @@ function SignIn() {
             </div>
           </div>
           <div className='login-btn'>
-            <button type='button'>로그인</button>
+            <button type='submit'>로그인</button>
           </div>
         </form>
         <div className='login-member__util'>
@@ -39,11 +40,10 @@ function SignIn() {
         </div>
         <div className='sign-up'>
           <p>아직 회원이 아니신가요?</p>
-          <button>회원가입</button>
+          <Link to="/signup"><button>회원가입</button></Link>
         </div>
       </div>
     </div>
   );
 }
 
-export default SignIn;
