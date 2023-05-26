@@ -1,17 +1,19 @@
 import './styles/App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Nav from './components/Nav';
+import Home from './pages/Home';
+import SignIn from './pages/SignIn';
 
 function App() {
   return (
     <div className="App">
+
       <BrowserRouter>
-        <Header />
         <Routes>
+          <Route path='/' element={ <Home />}></Route>
+          <Route path='/signin' element={ <SignIn />}></Route>
         </Routes>
-        <Nav />
       </BrowserRouter>
+
     </div>
   );
 }

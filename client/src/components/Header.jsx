@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
               <img src="./img/ic_calender.svg" alt="" />
             </li>
             <li className="myPage">
-              <img src="./img/ic_myPage.svg" alt="" />
+                <Link to="/signin"><img src="./img/ic_myPage.svg" alt="" /></Link>       
             </li>
           </ul>
         </div>
