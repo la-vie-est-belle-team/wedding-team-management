@@ -10,9 +10,10 @@ public class Member {
     @Column(name = "member_id")
     private Long id;
 
-    private String ID;
+    private String loginId;
     private String password;
     private String name;
+    Integer age;
     private String email;
     private String phoneNum;
     @Enumerated

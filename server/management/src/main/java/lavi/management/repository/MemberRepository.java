@@ -1,7 +1,10 @@
 package lavi.management.repository;
 
-import org.springframework.stereotype.Repository;
+import lavi.management.domain.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public class MemberRepository {
+import java.util.Optional;
+
+public interface MemberRepository extends JpaRepository<Member,Long> {
+    Optional<Member> findByLoginId(String loginId);
 }
