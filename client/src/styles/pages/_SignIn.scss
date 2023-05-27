@@ -1,15 +1,12 @@
 .login__bg {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
   background-color: $greyf1;
   display: flex;
   justify-content: center;
   .login__wrap {
     width: rem(385);
-    height: 100vh;
     background-color: $white;
-    padding: rem(68) rem(21) 0;    
+    padding: rem(68) rem(21) rem(500);    
     #loginForm {
       margin-top: rem(27);
       .login-input {

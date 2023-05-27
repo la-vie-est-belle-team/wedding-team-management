@@ -1,15 +1,12 @@
 .sign-up__bg {  
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
   background-color: $greyf1;
   display: flex;
   justify-content: center;
   .sign-up__wrap {
     width: rem(385);
-    height: 100vh;
     background-color: $white;
-    padding: rem(68) rem(21) 0; 
+    padding: rem(68) rem(21) rem(500);   
     .sign-up__header {
       position: relative;
       display: flex;
